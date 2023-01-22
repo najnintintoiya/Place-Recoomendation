@@ -69,7 +69,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>Travel Spots</h1>
-      <p>Checkout most beautiful place to visit. Click on Button to know</p>
+      <p>
+        Checkout most beautiful place to visit. Click on Button below to know
+      </p>
       <button onClick={() => onClickHandler(mountain)}>Mountain</button>
       <button onClick={() => onClickHandler(beaches)}>beaches</button>
       <button onClick={() => onClickHandler(cities)}>Cities</button>
