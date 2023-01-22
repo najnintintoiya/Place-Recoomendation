@@ -68,8 +68,8 @@ export default function App() {
   // console.log(places[0]);
   return (
     <div className="App">
-      <h1>Tranvel Spots</h1>
-      <p>Checkout most beautiful place to visit. Select a type to know</p>
+      <h1>Travel Spots</h1>
+      <p>Checkout most beautiful place to visit. Click on Button to know</p>
       <button onClick={() => onClickHandler(mountain)}>Mountain</button>
       <button onClick={() => onClickHandler(beaches)}>beaches</button>
       <button onClick={() => onClickHandler(cities)}>Cities</button>
